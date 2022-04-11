@@ -19,18 +19,26 @@ function MobileNav({open, setOpen}) {
                 </Link>     
             </div>
             <div className="flex flex-col ml-4">
-                <a className="text-xl font-medium my-4 hover:text-white" href="/bio" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    BIO
-                </a>
-                <a className="text-xl font-normal my-4 hover:text-white" href="/skills" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    SKILLS
-                </a>
-                <a className="text-xl font-normal my-4 hover:text-white" href="/projects" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    PROJECTS
-                </a>
-                <a className="text-xl font-normal my-4 hover:text-white" href="/contact" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    CONTACT
-                </a>
+                <Link href="/bio">
+                    <a className="text-xl font-medium my-4 hover:text-white"onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                        BIO
+                    </a>
+                </Link>
+               <Link href="/skills">
+                    <a className="text-xl font-normal my-4 hover:text-white"  onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                       SKILLS
+                    </a> 
+               </Link>
+                <Link href="/projects">
+                    <a className="text-xl font-normal my-4 hover:text-white"  onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                        PROJECTS
+                    </a>
+                </Link>
+                <Link href="/contact">
+                    <a className="text-xl font-normal my-4 hover:text-white"  onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                        CONTACT
+                    </a> 
+                </Link>
             </div>  
         </div>
     )
