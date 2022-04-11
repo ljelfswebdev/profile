@@ -15,24 +15,23 @@ const Bio = () => {
             <h1 className={styles.title} id="underline">
             Bio 
             </h1>
-            <div className="grid grid-cols-3 gap-4 mt-5 ">
-                <div className="col-span-2">
-                    <h1 className={styles.heading}>About Me</h1>
+            <div className='flex flex-wrap'>
+                <div>
+                  <h1 className={styles.heading}>About Me</h1>
                     <p className='mt-3 text-center'>
                         Hi everyone, I'm Lewis and I'm a web developer!<br></br>
                         I was born in Wolverhampton, UK and enjoyed many activities growing up. Most notably cricket in which I reached junior representative level for Staffordshire.
                         I am also an avid Birmingham City fan, something I blame my father for each day.<br></br>
                         I have been living in Murcia, Spain since I was 21 and have been an English Teacher throughout my time here.
-                    </p>
+                    </p>  
                 </div>
+                <div className='homepage-image'>
+                <img src="./bio/car.jpeg" alt="lana" width={300} className='rounded hover:shadow-xl' />
+                </div>     
+            </div>
+            <div className='flex flex-wrap'>
                 <div>
-                    <img src="./bio/car.jpeg" alt="lana" width={300} className='rounded hover:shadow-xl' />
-                </div>
-                <div>
-                    <img src="./bio/lana.jpeg" alt="car" width={300} className='rounded hover:shadow-xl' />
-                </div>
-                <div className="col-span-2 ">
-                    <h1 className={styles.heading}>Why Web Development?</h1>
+                    <h1 className={styles.heading}>Why Web Dev?</h1>
                     <p className='mt-3 text-center'>
                         This section really got my stumped (cricket pun right there). Do I go the standard way of how I've always been obsessed with web development, or tell the truth. Well mother always did say honesty was the best policy. <br></br> 
                         I.C.T at school was a pain, I couldn't stand it! The computer never did what I asked and had a mind of its own, I don't know how I blagged 2 b's in my G.C.S.E. <br></br>
@@ -44,6 +43,9 @@ const Bio = () => {
                         Thus I paid for Colt Steele's Web Developer Bootcamp on Udemy and since then I have been hooked. I've done many courses ranging from simple JavaScripts and CSS courses, to React, Next, MERN stack, TypeScript, Tailwind etc, the list goes on. <br></br>
                         And well here I am now, I find myself in a position where I feel ready to enter the real world, yet still the desire to do more courses and expland my ever increasing knowledge in this.
                     </p>
+                </div>
+                <div className='homepage-image'>
+                    <img src="./bio/lana.jpeg" alt="car" width={300} className='rounded hover:shadow-xl' />
                 </div>
             </div>
         </main>
