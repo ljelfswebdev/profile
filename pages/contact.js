@@ -17,7 +17,7 @@ const Contact = () => {
         </Head>
 
         <main className={styles.main}>
-            <h1 className={styles.title}>
+            <h1 className={styles.title} id="underline">
             Contact 
             </h1>
             <div className="container my-12 mx-auto ">

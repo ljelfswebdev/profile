@@ -12,7 +12,7 @@ const Bio = () => {
         </Head>
 
         <main className={styles.main}>
-            <h1 className={styles.title}>
+            <h1 className={styles.title} id="underline">
             Bio 
             </h1>
             <div className="grid grid-cols-3 gap-4 mt-5 ">

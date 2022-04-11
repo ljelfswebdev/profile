@@ -13,7 +13,7 @@ const bio = () => {
         </Head>
 
         <main className={styles.main}>
-            <h1 className={styles.title}>
+            <h1 className={styles.title} id="underline">
             Ooops!!! This web page doesn't exist
             </h1>
             <div>

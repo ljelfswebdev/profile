@@ -18,7 +18,7 @@ const Projects = () => {
         </Head>
 
         <main className={styles.main}>
-            <h1 className={styles.title}>
+            <h1 className={styles.title} id="underline">
             My Projects 
             </h1>
             <div className="container my-12 mx-auto ">

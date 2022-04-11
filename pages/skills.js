@@ -27,7 +27,7 @@ const Skills = () => {
         </Head>
 
         <main className={styles.main}>
-            <h1 className={styles.title}>
+            <h1 className={styles.title} id="underline">
              My Skills 
             </h1>
             <div className="container my-12 mx-auto ">
