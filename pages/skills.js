@@ -35,7 +35,7 @@ const Skills = () => {
                     {skill.map(skill => {
                         return(
                             <div key={skill.text} className="w-full p-5 md:w-1/2 lg:w-1/3 text-center rounded overflow-hidden shadow-2xl hover:bg-lemon mb-5">
-                                <div className="flex flex-wrap lg:-mx-4 justify-center items-center hover:rounded">
+                                <div className="flex flex-wrap lg:-mx-4 justify-between items-center hover:rounded">
                                     <div className='absolute items-center mr-32'>
                                         <img className="block h-20 w-20 rounded object-fit flex items-center justify-between leading-tight p-2 mt-5" src={skill.imageUrl} alt={skill.text}/>
                                     </div>
