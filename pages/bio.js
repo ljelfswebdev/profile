@@ -41,7 +41,7 @@ const Bio = () => {
                         So option 2 was web development. I spoke to a close friend of mine who is a backend developer about it and he told me that I should have a look and its worth looking into. <br></br>
                         I enrolled onto Harvard's CS50 course and started watching the lectures, this was extremely interesting, despite the tasks that were being set were far too advanced for me at the time. <br></br>
                         Thus I paid for Colt Steele's Web Developer Bootcamp on Udemy and since then I have been hooked. I've done many courses ranging from simple JavaScripts and CSS courses, to React, Next, MERN stack, TypeScript, Tailwind etc, the list goes on. <br></br>
-                        And well here I am now, I find myself in a position where I feel ready to enter the real world, yet still the desire to do more courses and expland my ever increasing knowledge in this.
+                        And well here I am now, I find myself in a position where I feel ready to enter the real world, yet still the desire to do more courses and expand my ever increasing knowledge in this.
                     </p>
                 </div>
                 <div className='homepage-image'>
