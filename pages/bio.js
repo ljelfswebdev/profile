@@ -35,7 +35,7 @@ const Bio = () => {
                     <p className='mt-3 text-center'>
                         This section really got my stumped (cricket pun right there). Do I go the standard way of how I've always been obsessed with web development, or tell the truth. Well mother always did say honesty was the best policy. <br></br> 
                         I.C.T at school was a pain, I couldn't stand it! The computer never did what I asked and had a mind of its own, I don't know how I blagged 2 b's in my G.C.S.E. <br></br>
-                        However, like everyone in the world, March 2020 changed everything. Now I found myself working from home with my laptop. And I'll be honest, i quite liked this working from home with a laptop gig. <br></br>
+                        However, like everyone in the world, March 2020 changed everything. Now I found myself working from home with my laptop. And I'll be honest, I quite liked this working from home with a laptop gig. <br></br>
                         So a simple google search of 'highest paid jobs working from home' gave me two possibilities.<br></br>
                         The first option was to become an author, now I did like English but a bit more research revealed how lucky I had to be to break into the industry, and well, I wouldn't be paid tomorrow...<br></br>
                         So option 2 was web development. I spoke to a close friend of mine who is a backend developer about it and he told me that I should have a look and its worth looking into. <br></br>
