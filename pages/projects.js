@@ -7,7 +7,8 @@ const Projects = () => {
     const project = [
         {text:'LJ-Gram App', description:'A Social Media styled website', github:'https://github.com/ljelfswebdev/LJGram-server', github2:'https://github.com/ljelfswebdev/LJGram-client', site:'https://ljgram-client.vercel.app/'},
         {text:'Recipe App', description: 'A recipe app with a randomiser', github: 'https://github.com/ljelfswebdev/Recipe', site:'https://recipe-liart.vercel.app/'},
-        {text:'An eDino App', description:'An ecommerce styled website', github:'https://github.com/ljelfswebdev/ecommerce', site:'https://github.com/ljelfswebdev/ecommerce'}
+        {text:'An eDino App', description:'An ecommerce styled website', github:'https://github.com/ljelfswebdev/ecommerce', site:'https://github.com/ljelfswebdev/ecommerce'},
+        {text:' A DinoDex App', description:'A dinosaur randomiser game', github:'https://github.com/ljelfswebdev/dinodex', site:'https://dinodex.vercel.app/game'}
     ]
     return ( 
     <div className={styles.container}>
