@@ -9,7 +9,8 @@ const Projects = () => {
         {text:'Recipe App', description: 'A recipe app with a randomiser', github: 'https://github.com/ljelfswebdev/Recipe', site:'https://recipe-liart.vercel.app/'},
         // {text:'An eDino App', description:'An ecommerce styled website', github:'https://github.com/ljelfswebdev/ecommerce', site:'https://github.com/ljelfswebdev/ecommerce'},
         {text:' A DinoDex App', description:'A dinosaur randomiser game', github:'https://github.com/ljelfswebdev/dinodex', site:'https://dinodex.vercel.app/game'},
-        {text:'A CRUD Blog App', description:'An app for CRUD functions for blogs', github: 'https://github.com/ljelfswebdev/Blog-client', site:'https://blog-client-omega.vercel.app/' }
+        {text:'A CRUD Blog App', description:'An app for CRUD functions for blogs', github: 'https://github.com/ljelfswebdev/Blog-client', site:'https://blog-client-omega.vercel.app/' },
+        {text:'A Guess the flag game', description:'Guess the flag created with react', github:'https://github.com/ljelfswebdev/flags', site:'https://flags-dusky.vercel.app/'}
     ] 
     return ( 
     <div className={styles.container}>
