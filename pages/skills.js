@@ -15,6 +15,7 @@ const Skills = () => {
         { text: "API's", imageUrl:"./skillstn/API's.png" },
         { text: 'Github', imageUrl:"./skillstn/Github.png" },
         { text: 'TypeScript', imageUrl:"./skillstn/TypeScript.png"},
+        { text: 'Wordpress', imageUrl:"./skillstn/Wordpress.png"},
         { text: 'Spanish', imageUrl:"./skillstn/Spanish.png"}
     ];
 
